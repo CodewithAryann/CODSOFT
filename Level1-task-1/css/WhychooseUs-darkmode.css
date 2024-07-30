@@ -1,0 +1,10 @@
+.dark-theme section{
+    background-color: black;
+    box-shadow: 0 0 20px rgb(255 255 255 / 10%);
+}
+.dark-theme h1, h2{
+    color: white;
+}
+.dark-theme p{
+    color: #ffffffe3;
+}

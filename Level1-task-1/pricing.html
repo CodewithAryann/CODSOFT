@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Aesthetic Gallery</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="Aesthetic img/logo_nobg.png" type="image/x-icon">
+    <!-- CSS libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Custom CSS files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pricing.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+    <link rel="stylesheet" href="css/pricing-darkmode.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="home">
+            <!-- Navigation -->
+            <div id="nav">
+                <!-- Left navigation links -->
+                <div id="navleft">
+                    <a class="nlink" id="navb" href="index.html">Home</a>
+                    <a class="nlink" id="navb" href="pricing.html">Pricing</a>
+                    <a class="nlink" id="navb" href="products.html">Products</a>
+                </div>
+                <!-- Logo -->
+                <img class="nlink" id="centertag" src="Aesthetic img/logo_nobg.png" alt="logo">
+                <!-- Centered navigation link -->
+                <a class="nlink" id="centertag" href="index.html">Aesthetic Gallery </a>
+                <!-- Right navigation links -->
+                <div id="nright">
+                    <a class="nlink" id="navb" href="whychooseus.html">Why Choose Us</a>
+                    <a class="nlink" id="navb" href="Aboutus.html">About Us</a>
+                    <a class="nlink" class="dark" id="navb"><button onclick="changeMode()" id="button1"></button><img
+                            id="darkmode-img" src="Aesthetic img/yellow moom.png" alt=""></a>
+                    </button>
+                </div>
+            </div>
+            <!-- Header section -->
+            <header>
+                <h1 class="header-title">Flexible pricing</h1>
+                <p class="p">You only pay if you're satisfied.</p>
+                <div class="billm"> billed monthly / billed Annually
+                    <button> Save up to 20%</button>
+                </div>
+            </header>
+            <!-- Pricing table section -->
+            <section class="pricing-table" id="pricingTable">
+                <!-- Pricing plans -->
+                <div class="pricing-plan" onclick="selectPlan(this)">
+                    <h2>Basic Package</h2>
+                    <p class="price">$50 <span class="monthly">/ Monthly</span></p>
+                    <ul>
+                        <li class="plandesc"> What's included:</li>
+                        <li><span class="correct">✔</span> 10 High-Resolution Images</li>
+                        <li><span class="correct">✔</span> Basic Editing</li>
+                        <li><span class="correct">✔</span> Online Delivery</li>
+                    </ul>
+                    <button class="purcbutton" id="purc-button" onclick="purchasePlan(this)"> Choose Plan</button>
+                </div>
+
+                <div class="pricing-plan" onclick="selectPlan(this)">
+                    <h2>Premium Package</h2>
+                    <p class="price">$100 <span class="monthly">/ Monthly</span></p>
+                    <ul>
+                        <li class="plandesc"> All basic features, plus:</li>
+                        <li><span class="correct">✔</span> 20 High-Resolution Images</li>
+                        <li><span class="correct">✔</span> Advanced Editing</li>
+                        <li><span class="correct">✔</span> Printed Copies</li>
+                    </ul>
+                    <button class="purcbutton" onclick="purchasePlan(this)">Choose Plan</button>
+                </div>
+            </section>
+
+            <section class="pricing-table" id="pricingTable">
+                <div class="pricing-plan" onclick="selectPlan(this)">
+                    <h2>Professional Package</h2>
+                    <p class="price">$150 <span class="annually">/ Annually</span></p>
+                    <ul>
+                        <li class="plandesc"> All premium features, plus:</li>
+                        <li><span class="correct">✔</span> 30 High-Resolution Images</li>
+                        <li><span class="correct">✔</span> Custom Editing</li>
+                        <li><span class="correct">✔</span> Printed and Digital Copies</li>
+                        <li><span class="correct">✔</span> Photo Album</li>
+                    </ul>
+                    <button class="purcbutton" id="purc-button2" onclick="purchasePlan(this)">Choose Plan</button>
+                </div>
+
+
+                <div class="pricing-plan" onclick="selectPlan(this)">
+                    <h2>Ultimate Package</h2>
+                    <p class="price">$200 <span class="annually">/ Annually</span></p>
+                    <ul>
+                        <li class="plandesc"> All Professional features, plus:</li>
+                        <li><span class="correct">✔</span> Unlimited High-Resolution Images</li>
+                        <li><span class="correct">✔</span> VIP Editing Service</li>
+                        <li><span class="correct">✔</span> Printed and Digital Copies</li>
+                        <li><span class="correct">✔</span> Canvas Prints</li>
+                        <li><span class="correct">✔</span> Personalized Consultation</li>
+                    </ul>
+                    <button class="purcbutton" onclick="purchasePlan(this)">Choose Plan</button>
+                </div>
+            </section>
+        </div>
+        <!-- Footer section -->
+        <div class="footer-clean">
+            <!-- Footer content -->
+            <footer>
+                <div id="footer" class="footer-container">
+                    <div class="row justify-content-center" id="footer-items">
+                        <div class="footer-main-items">
+                            <div class="col-sm-4 col-md-3 item">
+                                <h3>Services</h3>
+                                <ul>
+                                    <li><a href="#">Art Advisory</a></li>
+                                    <li><a href="#">Custom Framing</a></li>
+                                    <li><a href="#">Art Events and Workshops</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-3 item">
+                                <h3>Contact Information</h3>
+                                <ul>
+                                    <li><a href="#">email@example.com</a></li>
+                                    <li><a href="#">000-000-0000</a></li>
+                                    <li><a href="#">123 Gallery Street</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-3 item">
+                                <h3>Customer Support</h3>
+                                <ul>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Customer Service</a></li>
+                                    <li><a href="#">Shipping Information</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-3 item">
+                                <h3>Terms and Policies</h3>
+                                <ul>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Return Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a
+                                href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i
+                                    class="icon ion-social-snapchat"></i></a><a href="#"><i
+                                    class="icon ion-social-instagram"></i></a>
+                            <p class="copyright">Aesthetic Gallery © 2024.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- JavaScript libraries -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"
+            integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom JavaScript -->
+        <script src="javascript/pricing.js"></script>
+        <script src="javascript/darkmode.js"></script>
+
+</body>
+
+</html>

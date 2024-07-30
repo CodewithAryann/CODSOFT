@@ -1,0 +1,44 @@
+#darkmode-img{
+    width: 107%;
+    padding-right: 1px;
+    margin-right: -486px;
+    margin-top: -6px;
+ }
+ #darkmode-img:hover{
+    text-shadow: none;
+    border-bottom: none;
+ }
+ .dark-theme {
+    color: white;
+    background-color: rgb(6 5 4);
+ }
+.dark-theme .nlink {
+    color: white !important;
+}
+.dark-theme #nav {
+    background-color: rgb(23 20 20 / 14%);
+    box-shadow: 0px 1px 14px rgb(99 86 86 / 50%);
+}
+ button#button1 {
+    display: flex;
+    border-color: transparent;
+    width: 92%;
+    background: transparent;
+    position: absolute;
+    height: 23px;
+    outline: none; 
+    justify-items: center;
+    border: none;
+ }
+ 
+    div.darkbutton{
+       margin-inline-start: auto;
+       margin-left: 5vh;
+
+    }
+    .dark-theme .c-scrollbar_thumb {
+        background-color: white ; 
+    }
+    .dark-theme #vistlink{
+        color: white;
+    }

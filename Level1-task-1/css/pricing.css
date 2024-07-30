@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Merriweather:ital@1&display=swap');
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: -1vw;
+}
+#navb{
+    margin-right: 18px;
+    margin-left: 9px;
+}
+
+.header-title, .p {
+font-family: 'Merriweather', serif;
+    font-size: 34px;
+    color: black;
+    margin: 0;
+    transition: color 0.3s;
+}
+
+
+ .p {
+    font-size: 13px;
+    opacity: 0.7;
+    padding-top: 1vw;
+}
+.billm{
+    font-family: 'Merriweather', serif;
+    justify-content: right;
+    display: flex;
+    position: relative;
+    align-items: normal;
+    top: 16px;
+    right: 8vw;
+    color: #f40505;
+}
+
+.billm button{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 34px;
+    top: -7px;
+    left: 7px;
+    border-radius: 37px;
+    background-color: #e41818bd;
+    cursor: unset;
+    color: #f2f0f7;
+}
+h2, p,li{
+    font-family: 'Merriweather', serif;
+}
+.p{
+    color: black;
+}
+h2{
+    font-size: xx-large;
+}
+.monthly{
+    font-family: 'Merriweather', serif;
+    font-size: 11px;
+}
+.annually{
+    font-family: 'Merriweather', serif;
+    font-size: 11px;
+}
+
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 20px;
+}
+
+.pricing-plan {
+    border: 1px solid rgb(28 16 16);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+.pricing-plan {
+    box-shadow: 0 0 12px rgba(12, 12, 12, 0.38) ;
+
+}
+
+
+.pricing-plan:hover {
+    transform: scale(1.05);
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+ background-color: #e41818bd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button.purcbutton{
+    font-family: 'Merriweather', serif;
+}
+
+button.purcbutton:hover {
+    background-color: #de2b23;
+}
+ .plandesc{
+    font-weight: 600;
+    color: #f40505;
+    margin: 15px;
+    font-size: 17px;
+}
+li .correct{
+    color: #13e513;
+}
+.monthly,.annually{
+    color: #f40505;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+@media  (max-width: 600px) {
+    #pricingTable{
+        display:unset;
+    }
+    .pricing-plan{
+        margin-bottom: 26px;
+    }
+    .footer-clean ul a {
+        font-size: 11px;
+    } 
+    .footer-main-items{
+        display: flex;
+    }
+}

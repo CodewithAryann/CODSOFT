@@ -1,0 +1,13 @@
+.dark-theme .header-title{
+    color: white;
+}
+.dark-theme .price {
+    color: white;
+}
+.dark-theme .p {
+    color: white;
+}
+.dark-theme .pricing-plan {
+    border: 1px solid rgb(181 10 10);
+    box-shadow: 0 0 17px rgba(255, 255, 255, 0.38);
+}

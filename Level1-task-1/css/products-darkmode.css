@@ -1,0 +1,14 @@
+.dark-theme .product-details {
+    background-color: black;
+}
+.dark-theme .product{
+    background-color: black;
+    box-shadow: 0 0 20px rgb(255 255 255 / 10%);
+}
+.dark-theme .cart-container{
+    background-color: black;
+}
+.dark-theme #cart-list li{
+    background-color: black;
+    box-shadow: 0 0 20px rgb(255 255 255 / 10%);
+}

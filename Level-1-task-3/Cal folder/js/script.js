@@ -1,6 +1,4 @@
-/* -------------------------
-    Calculator ...
----------------------------*/
+
 var result = document.getElementById('result');
 var smallResult = document.getElementById('smallResult');
 var cal = false;

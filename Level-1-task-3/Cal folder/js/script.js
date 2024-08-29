@@ -123,7 +123,7 @@ function magic(a, b, oper) {
 	return tot;
 }
 
-// clearing everything...
+// clearing everything.
 function cls() {
 	smallResult.innerHTML = '';
 	result.innerHTML = 0;
